@@ -4,12 +4,13 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import { MatError } from "@angular/material/form-field"
 import { ReactiveFormsModule, FormControl, Validators } from "@angular/forms";
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [MatButtonModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule, ReactiveFormsModule],
+  imports: [MatButtonModule, MatCardModule, MatInputModule, MatFormFieldModule, MatIconModule, ReactiveFormsModule, MatError],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })

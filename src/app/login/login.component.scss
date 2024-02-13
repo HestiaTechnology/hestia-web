@@ -1,0 +1,24 @@
+.center-login-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-inputs {
+  padding-top: 16px;
+  // Make the inputs the entire card width
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.login-input {
+  width: 100%;
+}
